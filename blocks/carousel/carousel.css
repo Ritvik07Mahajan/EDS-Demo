@@ -1,0 +1,21 @@
+.carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel div {
+    flex: 0 0 100%; /* Each item takes up 100% of the container's width */
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
