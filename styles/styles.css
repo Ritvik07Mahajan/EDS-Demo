@@ -234,7 +234,6 @@ main > .section {
 
 main > .section > div {
   margin: auto;
-  padding: 0 24px;
 }
 
 main > .section:first-of-type {
